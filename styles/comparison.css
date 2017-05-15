@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* Author: Sherry Bonham */
+
+header {
+    background-color: #CFB99B;
+    height: 150px;
+	text-align: center;
+}
+h1 {
+	font-size: 4em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom:20px;
+}
+h2 {
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 2.5em;
+}
+img {
+    padding-left: 5px;
+	padding-top: 5px;
+    float: left;	
+}
+footer {
+    background-color: #CFB99B;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+    border-bottom: 2px solid #221811; 
+}
+table, th, td {
+    border: 1px solid black;
+	margin-left: 5px;
+	margin-right: 5px;
+	vertical-align: text-top;
+}
+tr {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.5em;
+	text-align: left;
+	table-layout: fixed;
+    width: 400px;
+}
+tr:nth-child(even) {
+	background-color: #cfb99b;
+}
+th {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.7em;
+	text-align: center;
+	
+}
